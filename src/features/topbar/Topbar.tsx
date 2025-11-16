@@ -5,19 +5,13 @@ function Topbar() {
   return (
     <nav>
       <div>
-        <Link to={"/"}>
-          Home
-        </Link>
+        <Link to={"/"}>Home</Link>
       </div>
       <div>
-        <Link to={"/info"}>
-          Info
-        </Link>
+        <Link to={"/info"}>Info</Link>
       </div>
       <div>
-        <Link to={"/login"}>
-          Login
-        </Link>
+        <Link to={"/login"}>Login</Link>
       </div>
     </nav>
   );
