@@ -3,19 +3,19 @@ import { Link } from "react-router-dom";
 
 function Topbar() {
   return (
-    <nav className="topbar-glass">
+    <nav>
       <div>
-        <Link to={"/"} className="topbar-link">
+        <Link to={"/"}>
           Home
         </Link>
       </div>
       <div>
-        <Link to={"/info"} className="topbar-link">
+        <Link to={"/info"}>
           Info
         </Link>
       </div>
       <div>
-        <Link to={"/login"} className="topbar-link">
+        <Link to={"/login"}>
           Login
         </Link>
       </div>

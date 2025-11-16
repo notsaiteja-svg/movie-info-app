@@ -1,8 +1,7 @@
 import Routing from "./routes/routes";
-
 function App() {
   return (
-    <div className="app-root">
+    <div>
       <Routing />
     </div>
   );
